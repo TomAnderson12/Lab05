@@ -1,0 +1,89 @@
+/*
+filename: lab04.css
+author:  Tom Anderson
+created:  23/03/2025
+last modified: 26/03/2025
+description:  CSS for lab05.html
+*/
+
+/* Center-aligns the text in the element with id 'introduction' */
+#introduction {
+    text-align: center;
+}
+
+/* Changes the text color to dark orange for elements with the class 'introduction' */
+.introduction {
+    color: darkorange;
+}
+
+/* Styles elements with the class 'special' to have dark orange text and bold font */
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+/* Center-aligns the text in the element with id 'images' */
+#images {
+    text-align: center;
+}
+
+/* Applies a default text color and font family to all elements */
+* { 
+    color: #2F4F4F; 
+}
+* { 
+    font-family: calibri, sans-serif;
+}
+
+/* Styles the h1 element with purple color, larger font size, and bold font weight */
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+/* Styles the element with id 'HeadingID' with red color, medium font size, and bold font weight */
+#HeadingID { 
+    color: red; 
+    font-size: 1.5em; 
+    font-weight: bold; 
+}
+
+/* Styles h2 elements with teal color, medium font size, and bold font weight */
+h2 { 
+    color: rgb(0,128,128);
+    font-size: 1.5em; 
+    font-weight: bold; 
+}
+
+/* Makes the text in aside and footer elements italic */
+aside, footer { 
+    font-style: italic; 
+}
+
+/* Adds a black border around h1, h2, and h3 elements */
+h1, h2, h3 { 
+    border: 1px solid black; 
+}
+
+/* Right-aligns text for elements with the class 'right-align' */
+.right-align {
+    text-align: right;
+}
+
+/* Removes underline from links inside nav and adds padding and border */
+nav a {
+    text-decoration: none; 
+    padding: 0.2em 0.6em; 
+    border: 4px solid #ccc; 
+}
+
+/* Changes bullet points to squares for unordered lists nested inside ordered lists */
+ol ul {
+    list-style-type: square;
+}
+
+/* Hides aside elements when hovered over */
+aside:hover {
+    display: none;
+}

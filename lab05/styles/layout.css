@@ -1,0 +1,81 @@
+/*
+filename: layout.css
+author:  Tom Anderson
+created:  02/04/2025
+last modified: 02/04/2025
+description:  layout for lab05.html
+*/  
+
+.menu {
+    display: inline-block;
+
+}
+
+aside {
+    border: 4px inset purple;
+    border-radius: 14px;
+    margin: 1em;
+    padding: 1em;
+    background:url(images/fade.jpg) repeat-x top left;
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    
+}
+
+
+header {
+    border: 1px solid darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+    text-align: center;
+}
+
+footer {
+    border-top: 4px double purple;
+    clear: both;
+}
+
+/* Float the lists section to the left */
+#lists {
+    float: left;
+    width: 45%; 
+    margin-right: 1em; 
+}
+
+/* Center the table in its column */
+table {
+    margin: auto;
+}
+
+/* Float the tables section to the right */
+#tables {
+    float: right;
+    width: 45%;
+    margin-left: 1em; 
+}
+
+/* Float the images section to the right */
+#images {
+    float: right;
+    width: 45%; /* Adjust width as needed */
+    margin-left: 1em; /* Add some spacing to the left */
+}
+
+/* Add a border to the figure element */
+figure {
+    border: 2px solid #ccc;
+    padding: 0.5em; /* Optional: Add some padding inside the border */
+}
+
+#hyperlinks {clear:both; float:left; }
+
+
+#lists, #images, #tables, #hyperlinks {
+    width: 50%;
+    text-align: center;
+}
+
+
+
