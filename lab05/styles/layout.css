@@ -6,13 +6,12 @@ last modified: 02/04/2025
 description:  layout for lab05.html
 */  
 
+/* Menu styling */
 .menu {
     display: inline-block;
-
 }
 
-
-
+/* Styling for the aside element */
 aside {
     border: 4px inset purple;
     border-radius: 14px;
@@ -22,11 +21,9 @@ aside {
     width: 30%;
     float: right;
     box-shadow: 10px 10px 5px #aaaaaa;
-    
 }
 
-
-
+/* Header styling */
 header {
     border: 1px solid darkgray;
     margin: 0.5em;
@@ -35,6 +32,7 @@ header {
     text-align: center;
 }
 
+/* Footer styling */
 footer {
     border-top: 4px double purple;
     clear: both;
@@ -86,5 +84,16 @@ article { min-width:30em; }
 
 footer p {display:inline-block;  width:33%}
 
+footer p:first-child { 
+    float: left; 
+}
 
+footer p:nth-child(2) { 
+    text-align: center; 
+}
+
+footer p:last-child { 
+    float: right; 
+    text-align: right; 
+}
 
